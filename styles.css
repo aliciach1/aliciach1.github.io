@@ -261,14 +261,14 @@ table img{
     }
     #xiaohui5{
         position: absolute;
-        top:790px;
+        bottom: 0px;
         left:900px;
 
         
     }
     #xiaohui6{
         position: absolute;
-        top:793px;
+        bottom: 15px;
         left:653px;
 
         
