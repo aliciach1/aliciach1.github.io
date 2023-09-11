@@ -1,0 +1,283 @@
+
+/*
+
+first three selectors are the most general selectors to set background color and font color and size, the rest of them are in alphabetical order
+
+
+*/
+a{
+    color:aliceblue;
+}
+
+body{
+    background-color:gray;
+}
+
+p{
+    color:aliceblue;
+    font-size: 20px;
+}
+
+
+
+
+/*links turn red when user hovers over it*/
+a:hover{
+    color:red;
+}
+
+
+
+/* sets navigation bar to alice blue */
+div#white{
+    color:aliceblue;
+}
+
+
+/* navigation bar ist becomes inline */
+figure.inline{
+    display:inline-block;
+    color:aliceblue;
+}
+
+/* sets footer to alice blue, to the bottom of the screen, aligns text to center */
+footer{
+    background-color: aliceblue;
+    position:absolute;
+    bottom:0;
+    min-height: 0;
+    background-color: aliceblue;
+    width:100%;
+    text-align:center;
+
+}
+
+/* changes color of link in footer to black */
+footer a{
+    color: black;
+}
+
+
+/* puts footer at end of page content for adoptRabbits page */
+footer.lower{
+    position:relative;
+}
+
+/* set attributes of text in footer */
+footer p{
+    color:black;
+    font-size: 16px;
+    margin: auto;
+}
+
+/* change color of text boxes and buttons to match the rest of the website */
+form input, textarea{
+    background-color: aliceblue;
+}
+
+
+/* configure banner and title of page */
+header{
+    position:fixed;
+    margin-top: 0px;
+    background-color: rgba(240, 248, 255, .4);
+    color:black;
+
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* set background image of home screen */
+#home{
+    background-image: url(images/pexels-dilara-albamya-17315002.jpg);
+    
+
+}
+
+/* separate cells of table on home page */
+#home_menu{
+
+
+    border-spacing:2cm;
+
+    font-size: 50px;
+
+
+}
+#home_menu a{
+    color:black;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* configure blocks on home page */
+#home_menu td{
+    background-color: rgba(240, 248, 255, .8);
+    padding: 75px 25px;
+    max-width: 200px;
+    height: 150px;
+    border: 3px solid #ffffff;
+    
+    text-align:center;
+}
+
+/* make lists inline for the navigation bar */
+li.inline{
+    display:inline-block;
+    color:black;
+    margin-left:7%;
+    margin-bottom:1%;
+}
+
+
+/* configure text for about me page */
+#me{
+    text-align: left;
+    margin:100px;
+    font-size:25px;
+}
+
+/* table borders for resources page */
+.middle{
+    
+    border-left:2px solid;
+    border-right:2px solid;
+    border-color: black;
+
+}
+
+p.inline{
+    display:inline-block;
+}
+
+/* center captions */
+#rabbits figcaption{
+    text-align: center;
+}
+
+/* add space between pictures of rabbits on adoption page */
+#rabbits th{
+    padding-top:20px;
+}
+
+/* make table borders look better */
+    #resources{
+        border-collapse: collapse;
+    }
+
+    #resources li{
+        margin: 20px 0px;
+        font-size: 20px;
+        text-align: center;
+        list-style-type:square;   
+    }
+
+#resources th{
+    border-bottom: 2px solid black;
+    color:aliceblue;
+    font-size: 24px;
+}
+
+/* make navigation bar white */
+#space{
+    background-color: aliceblue;
+    color:aliceblue;
+    
+}
+
+/* make links in nav bar black */
+#space a{
+    color:black;
+}
+
+/* make table cells look good on home page */
+table{
+    width: 100%;
+    border-color: aliceblue;
+    border:2px;
+
+
+}
+
+/* make rabbit images the right size */
+table img{
+    width: 100%;
+
+}
+
+/* position rabbit pic on contact page */
+
+#xiaohui{
+    position: absolute;
+    top:26%;
+    left:58%;
+
+
+    
+}
+
+/* center and color caption of above photo */
+#xiaohui figcaption{
+    text-align: center;
+    color: aliceblue;
+}
+
+/* add border to image on contacts page */
+#xiaohui img{
+    padding: 10px;
+    border: 3px solid aliceblue;
+}
+
+
+/* position rabbit images */
+    #xiaohui1{
+        position: absolute;
+        top:139px;
+        left:1400px;
+
+        
+    }
+    /*#xiaohui2{
+        position: absolute;
+        top:px;
+        left:px; 
+    } */
+    #xiaohui3{
+        position: absolute;
+        top:173px;
+        left:1480px;
+
+        
+    }
+    #xiaohui4{
+        position: absolute;
+        top:138px;
+        left:8px;
+
+        
+    }
+    #xiaohui5{
+        position: absolute;
+        top:790px;
+        left:900px;
+
+        
+    }
+    #xiaohui6{
+        position: absolute;
+        top:793px;
+        left:653px;
+
+        
+    }
+
+
+
+
+
+
+
+
